@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @MapperScan("com.douyu.usercrm.dao")
-public class usercrmApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(usercrmApplication.class, args);
+        SpringApplication.run(Application.class, args);
 
     }
 
