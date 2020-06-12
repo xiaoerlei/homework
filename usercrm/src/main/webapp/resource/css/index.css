@@ -1,0 +1,314 @@
+html {
+	font-size: 17px;
+	height: 100%;
+	font-weight: 600;
+}
+
+body {
+	margin: 0;
+	height: inherit;
+}
+
+.content {
+	background: url("../img/background_img.jpg") no-repeat;
+	background-size: 100% 100%;
+	height: auto;
+	width: 100%;
+	min-height: 750px;
+	min-width: 1000px;
+	overflow: hidden;
+}
+
+.content #gold3 {
+	z-index: 100;
+	position: absolute;
+	top: 95%;
+	left: -9%;
+	width: 16%;
+	min-width: 60px;
+}
+
+p {
+	margin: 0;
+}
+
+.rewardList {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+a {
+	cursor: pointer;
+	color: #2196f3;
+}
+
+.left_div, .center_div, .right_div {
+	float: left;
+	width: 30%;
+	margin: 15px 1%;
+	min-width: 300px;
+}
+
+.left_div .left_1, .left_2 {
+	background: #FFEEC9;
+	border-radius: 10px;
+	text-align: left;
+	width: 99%;
+	border: #D13D3C 2px solid;
+}
+
+.left_div .left_1 {
+	margin-bottom: 20px;
+	padding-bottom: 10px;
+}
+
+.left_div .left_1 p {
+	text-align: left;
+	width: 160px;
+	margin: auto;
+}
+
+.left_div .left_1 p:FIRST-CHILD {
+	text-align: center;
+}
+
+.left_div .left_1 #name {
+	width: 100px;
+	border-radius: 5px;
+	padding-left: 5px;
+}
+
+.left_div .left_1 #add {
+	width: 70px;
+	height: 25px;
+	color: #fff;
+	display: block;
+	background: #CF3938;
+	border-radius: 5px;
+	border: none;
+	margin: 5px auto;
+}
+
+.left_div .left_2 table {
+	background: #FFFCF7;
+	border-radius: 10px;
+	text-align: center;
+	width: 100%
+}
+
+.left_div .left_2 table tbody {
+	display: block;
+	height: 500px;
+	overflow-y: scroll;
+	padding-right: 10px;
+}
+
+.left_div .left_2 table thead, tbody tr {
+	display: table;
+	width: 100%;
+	table-layout: fixed;
+	border-bottom: 1px #E3E0DC solid;
+}
+
+.left_div .left_2 table thead {
+	width: calc(100% - 1em)
+}
+
+.left_div .left_2 table tbody::-webkit-scrollbar {
+	width: 10px;
+	height: 5px;
+}
+
+/*»¬¿é*/
+.left_div .left_2 table tbody::-webkit-scrollbar-thumb {
+	background-color: #6DE0D3;
+	border-radius: 10px;
+}
+
+.left_div .left_2 table tbody::-webkit-scrollbar-thumb:hover {
+	background-color: #777;
+}
+
+/*»¬µÀ*/
+.left_div .left_2 table tbody::-webkit-scrollbar-track {
+	box-shadow: inset 0 0 6px #fff;
+	border-radius: 10px;
+}
+
+.center_div hr {
+	width: 80%;
+	margin: 5px auto;
+	border: #E3E0DC 0.5px solid;
+}
+
+.center_div .reward_area {
+	position: relative;
+	text-align: center;
+	background: #FFF2D7;
+	border-radius: 10px;
+	padding-bottom: 10px;
+}
+
+.center_div .reward_area p {
+	margin-bottom: 8px;
+}
+
+.center_div .reward_area p span {
+	display: inline-block;
+	width: 6rem; 
+	font-size: 1.1rem;
+	text-align: left;
+}
+
+.center_div .reward_area input {
+	width: 15px;
+	height: 15px;
+	vertical-align: baseline;
+}
+
+.center_div .reward_area #gold1 {
+	position: absolute;
+	left: -4%;
+	min-width: 50px;
+	width: 16%;
+	top: 90%;
+	z-index: 100;
+}
+
+.center_div .reward_area #gold2 {
+	z-index: 100;
+	position: absolute;
+	right: -9%;
+	min-width: 50px;
+	width: 18%;
+	top: 90%;
+}
+
+.center_div .reward_go_area {
+	height: 400px;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	margin-top: 30px;
+}
+
+.center_div .reward_go_area img {
+	vertical-align: center;
+	width: 100%;
+	max-width: 400px;
+}
+
+.center_div .reward_go_area #button_p {
+	position: absolute;
+	text-align: center;
+	top: 206px;
+	width: 90%;
+	left: 1.5%;
+}
+
+.center_div .reward_go_area #go {
+	z-index: 100;
+	max-width: 200px;
+	width: 60%;
+	height: 63px;
+	opacity: 0;
+	cursor: pointer;
+	font-size: 1.4rem;
+	background-color: deepskyblue;
+}
+
+.center_div .reward_go_area #name_h1 {
+	position: absolute;
+	text-align: center;
+	width: 95%;
+	top: 100px;
+	height: 53px;
+	font-size: 1.4rem;
+}
+
+.right_div {
+	position: relative;
+	background: #FFEEC9;
+	border-radius: 10px;;
+	border: #D13D3C 2px solid;
+	text-align: center;
+}
+
+.right_div hr {
+	width: 90%;
+	margin: 5px auto 0px;
+	border: #E3E0DC 1px solid;
+}
+
+.right_div #div_rewardList {
+	width: 96%;
+	background: #FFFCF7;
+	margin: 0 auto;
+	padding: 8px 0;
+	border-radius: 10px;
+}
+
+.right_div .rewardList {
+	width: 95%;
+	padding: 5px 0;
+	margin: 5px auto;
+	border-radius: 5px;
+	color: #FFD800;
+	font-weight: 600;
+}
+
+.right_div .rewardList h {
+	padding-bottom: 5px;
+}
+
+.person {
+	font-size: 1.5rem;
+	display: inline-block;
+	width: 34%;
+}
+
+.right_div #rewardType1 .person, #rewardType2 .person, #rewardType3 .person{
+	color: #fff;
+}
+
+.right_div .person:hover,.right_div #rewardType1 .person:hover,.right_div #rewardType2 .person:hover,.right_div #rewardType3 .person:hover{
+	cursor: pointer;
+	color: #e3e0dca1;
+}
+
+.right_div #rewardType1 {
+	background: #3B77FF;
+}
+
+.right_div #rewardType2 {
+	background: #723BFF;
+}
+
+.right_div #rewardType3 {
+	background: #FF3BF8;
+}
+
+.right_div #rewardType4 {
+	background: #FF007E;
+}
+
+.right_div #rewardType5 {
+	background: #FF0000;
+}
+
+.right_div #rewardType5 .person {
+	width: 90%;
+	background: url(../images/reward_back.png) no-repeat;
+	background-size: 100% 100%;
+	background-position-y: 2px;
+}
+
+.title_text {
+	font-size: 1.4rem;
+	font-weight: bold;
+	text-align: center;
+}
+
+#empty {
+	font-size: 1rem;
+}

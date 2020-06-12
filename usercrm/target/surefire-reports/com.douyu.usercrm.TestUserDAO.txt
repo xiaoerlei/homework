@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: com.douyu.usercrm.TestUserDAO
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.173 s <<< FAILURE! - in com.douyu.usercrm.TestUserDAO
+initializationError(com.douyu.usercrm.TestUserDAO)  Time elapsed: 0.004 s  <<< ERROR!
+java.lang.Exception: No runnable methods
+

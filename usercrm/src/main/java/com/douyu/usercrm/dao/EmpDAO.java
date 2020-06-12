@@ -1,0 +1,24 @@
+package com.douyu.usercrm.dao;
+
+import com.douyu.usercrm.entity.Emp;
+
+import java.util.List;
+public interface EmpDAO {
+
+    // 查询所有的方法
+    List<Emp> findAll();
+
+    // 保存员工的方法
+    void save(Emp emp);
+
+    // 删除员工的方法
+    void delete(Integer id);
+
+    // 根据id查询员工信息
+    Emp findById(Integer id);
+
+    // 更新员工信息
+    void update(Emp emp);
+
+    List<Emp> search(String content);
+}
